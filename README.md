@@ -69,7 +69,7 @@
 ## 📸 Visual Tour (Screenshots Only)
 
 <div style="display:flex;flex-wrap:wrap;gap:20px;">
-  <img src="screenshots/landing_dashboard.png" alt="Landing page: migration dashboard overview" width="240" />
+  <img src="/example.png" alt="Landing page: migration dashboard overview" width="240" />
   <img src="screenshots/field_mapping_view.png" alt="Field mapping interface preview—no code shown" width="240" />
   <img src="screenshots/progress_bar.png" alt="Real-time progress bar and logs (read-only view)" width="240" />
   <img src="screenshots/report_summary.png" alt="Post-migration summary report—no code exposure" width="240" />
