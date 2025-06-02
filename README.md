@@ -125,6 +125,7 @@
 - **Future-Proof & Extensible**  
   - As Microsoft releases new Project for the Web and Dynamics 365 Project Operations features, we update the tool accordingly.  
   - You stay ahead of the curve—no need for in-house development to maintain the migration scripts.
+This tool helps organizations migrate their projects from Microsoft Project Server or Project Online to Project for the Web and Dynamics 365 Project Operations. It supports the full migration of tasks, resources, dependencies, and assignments using the Dynamics 365 Schedule API.
 
 ---
 
