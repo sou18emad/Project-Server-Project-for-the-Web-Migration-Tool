@@ -129,7 +129,40 @@ This tool helps organizations migrate their projects from Microsoft Project Serv
 project-server project-online project-for-the-web dynamics-365 project-operations project-migration project-management microsoft-project dynamics-365-project-operations power-platform schedule-api task-management project-planner migration-tool project-migration-tool ms-project modern-work-management agile project-schedule schedule-management task-scheduling portfolio-management team-management resource-management assignment-migration task-dependencies data-migration dataverse
 
 ---
+## 🚀 What Does This Tool Do?
 
+✅ **Migrate projects from Project Server or Project Online to Project for the Web**  
+✅ Supports migration to **Dynamics 365 Project Operations**  
+✅ Handles core project entities: **Projects, Tasks, Resources, Dependencies, and Assignments**  
+✅ Leverages the **Dynamics 365 Schedule API (V1)** for robust and accurate data transfer  
+✅ Supports **task dependencies**: Finish-Start, Start-Start, Finish-Finish, Start-Finish  
+✅ Supports resource types: **User, Generic, Account, Equipment**  
+✅ Maps task data including **task name, duration, work, milestones, and assignments**  
+✅ Ensures accurate mapping of **resource assignments** and **task relationships**  
+✅ Designed for **enterprise-scale migrations** from legacy project systems to modern platforms
+
+## 🏗️ Who is this for?
+
+This migration tool is ideal for:
+- **Project managers** modernizing their tools
+- **Consultants and partners** delivering migration projects
+- **Organizations** moving from **Microsoft Project Server** to **Project for the Web** or **Project Operations**
+
+## 🌐 Keywords for Search
+
+_migrate project server to project for the web_  
+_migrate project server to dynamics 365 project operations_  
+_project server migration tool_  
+_dynamics 365 project operations migration_  
+_project for the web migration_  
+_project service migration_  
+_project server to modern project management_  
+_microsoft project online migration_  
+_schedule api migration_  
+_project dependencies migration tool_  
+_dynamics 365 schedule api_  
+
+---
 ## 📩 Contact & Support
 
 - **Sales & Licensing**:  
