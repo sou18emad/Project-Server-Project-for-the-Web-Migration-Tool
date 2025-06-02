@@ -90,12 +90,6 @@
    - Validate data fidelity, performance, and compliance.
 
 3. **Choose Your License**  
-   - **Standard License** (single environment):  
-     - Ideal for small to mid-sized organizations migrating under 50 projects.  
-     - Includes email support and quarterly updates.  
-   - **Enterprise License** (multi-tenant, high volume):  
-     - Unlimited migrations across multiple Production/Test environments.  
-     - 24×7 premium support, dedicated TAM (Technical Account Manager), and biannual onsite training.
 
 4. **Onboarding & Kickoff**  
    - Once licensed, we schedule an onboarding session within 24 hours.  
