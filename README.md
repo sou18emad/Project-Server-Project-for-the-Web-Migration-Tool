@@ -143,7 +143,6 @@ project-server project-online project-for-the-web dynamics-365 project-operation
 ✅ **Migrate projects from Project Server or Project Online to Project for the Web**  
 ✅ Supports migration to **Dynamics 365 Project Operations**  
 ✅ Handles core project entities: **Projects, Tasks, Resources, Dependencies, and Assignments**  
-✅ Leverages the **Dynamics 365 Schedule API (V1)** for robust and accurate data transfer  
 ✅ Supports **task dependencies**: Finish-Start, Start-Start, Finish-Finish, Start-Finish  
 ✅ Supports resource types: **User, Generic, Account, Equipment**  
 ✅ Maps task data including **task name, duration, work, milestones, and assignments**  
