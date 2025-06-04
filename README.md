@@ -5,7 +5,14 @@
 > **Commercial-grade**, closed-source, and completely handled by YourCompany Inc. No coding required on your part.
 
 ---
-
+Feature	Description
+🔨 Project Creation	Creates a new project based on Excel input
+👥 Resource Team Building	Creates team members with associated roles
+📋 Task Import	Imports tasks with duration, dates, and milestone flags
+🔗 Task Linking	Links tasks in order (e.g., one starts after another)
+🔄 Assignments	Connects team members to the tasks they’re working on
+🧱 Operation Set Handling	Groups all actions into one safe batch operation
+🚀 Execution of Operation Set	Applies all imported data to the system in one step
 ## ⭐ Why Choose Our Migration Tool
 
 1. **Zero Code Exposure**  
