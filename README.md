@@ -2,8 +2,6 @@
 
 **Professional, turnkey solution** to migrate legacy project data—from Microsoft Project Server (2013/2016/2019) or Project Online—into **Project for the Web** (Dataverse) or **Dynamics 365 Project Operations**.  
 
-> **Commercial-grade**, closed-source, and completely handled by YourCompany Inc. No coding required on your part.
-
 ---
 ## ✅ Features
 
