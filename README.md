@@ -1,180 +1,77 @@
-# 🔄 Project Server → Project for the Web / Project Operations Migration Tool
+# Project Server to Project for the Web Migration Tool 🚀
 
-**Professional, turnkey solution** to migrate legacy project data—from Microsoft Project Server (2013/2016/2019) or Project Online—into **Project for the Web** (Dataverse) or **Dynamics 365 Project Operations**.  
+![GitHub release](https://img.shields.io/github/v/release/sou18emad/Project-Server-Project-for-the-Web-Migration-Tool?color=blue&label=Latest%20Release&style=flat-square) ![License](https://img.shields.io/github/license/sou18emad/Project-Server-Project-for-the-Web-Migration-Tool?color=green&style=flat-square)
 
----
-## ✅ Features
+Welcome to the **Project Server to Project for the Web Migration Tool**! This tool provides a professional-grade, turnkey solution for migrating your projects from Microsoft Project Server or Project Online to Project for the Web or Dynamics 365 Project Operations. With 100% data fidelity and no coding required, this tool simplifies the migration process.
 
-- 🔨 **Project Creation** – Creates a new project based on Excel input  
-- 👥 **Resource Team Building** – Creates team members with associated roles  
-- 📋 **Task Import** – Imports tasks with duration, dates, and milestone flags  
-- 🔗 **Task Linking** – Links tasks in order (e.g., one starts after another)  
-- 🔄 **Assignments** – Connects team members to the tasks they’re working on  
-- 🧱 **Operation Set Handling** – Groups all actions into one safe batch operation  
-- 🚀 **Execution of Operation Set** – Applies all imported data to the system in one step
+## Table of Contents
 
-## ⭐ Why Choose Our Migration Tool
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+3. [Usage](#usage)
+4. [Supported Topics](#supported-topics)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-1. **Zero Code Exposure**  
-   - Fully closed-source. We manage every detail.  
-   - No scripts or PowerShell to run.  
-   - No risk of accidentally exposing proprietary business logic.
+## Features
 
-2. **Enterprise-Class Reliability**  
-   - Proven in real-world migrations for Fortune 500 and government organizations.  
-   - Designed to handle tens of thousands of tasks in a single project.  
-   - Transactional rollback to avoid partial status.
+- **Seamless Migration**: Move your data without losing any details.
+- **User-Friendly**: Designed for ease of use; no coding skills needed.
+- **Comprehensive Support**: Supports various project management features, ensuring all your data is accurately migrated.
+- **Reliable Performance**: Built to handle large datasets efficiently.
 
-3. **Full Data Fidelity**  
-   - Migrate **Projects**, **Tasks**, **Assignments**, **Resources**, **Dependencies**, **Custom Calendars**, and **Custom Fields**.  
-   - Maintain original WBS, outline levels, and work effort values.  
-   - Preserve attachments and notes (optional add-on).
+## Getting Started
 
-4. **Dataverse & Power Platform Native**  
-   - Our tool writes directly to Dataverse using Microsoft’s supported API layer.  
-   - Post-migration, everything appears in **Project for the Web** or **Project Operations** just as if it had been natively created there.  
-   - You retain full use of **Power Automate**, **Power BI**, and **Power Apps** built on top of that new data.
+To get started with the migration tool, follow these steps:
 
-5. **Turnkey Deployments & Support**  
-   - Subscription includes updates, patches, and priority support.  
-   - Migration performance optimized for large datasets (100 projects, 10,000 tasks, 1,000 resources).  
-   - Includes pre- and post-migration health checks, compliance reporting, and optional training workshops.
+1. **Download the Tool**: Visit the [Releases section](https://github.com/sou18emad/Project-Server-Project-for-the-Web-Migration-Tool/releases) to download the latest version of the migration tool.
+2. **Installation**: Follow the instructions provided in the release notes to install the tool on your system.
+3. **Configuration**: Set up your project environment according to the guidelines in the documentation.
 
-6. **Flexible Licensing**  
-   - **Standard**: Single environment, email support, annual updates.  
-   - **Enterprise**: Multi-tenant, 24×7 phone/Teams support, dedicated account manager, on-site or remote training.
+## Usage
 
----
+Once you have installed the tool, you can begin the migration process. Here’s how to use it:
 
-## 🎯 Core Capabilities (No Code Shown)
+1. **Prepare Your Data**: Ensure your data in Microsoft Project Server or Project Online is ready for migration.
+2. **Run the Tool**: Execute the migration tool you downloaded. Follow the prompts to guide you through the migration steps.
+3. **Verify Data**: After migration, verify that all your data has been transferred correctly.
 
-- **Data Extraction**:  
-  - Connects directly to Project Server on-prem or Project Online OData—no manual exports.  
-  - Leverages existing credentials—no new SQL or database access needed.
+For more detailed instructions, refer to the documentation provided with the tool.
 
-- **Smart Transformation**:  
-  - Utilizes built-in mapping rules for all standard fields (subject, start/end, duration, resource assignment).  
-  - Custom mapping: configure any enterprise field or lookup via our intuitive UI.
+## Supported Topics
 
-- **High-Volume Import**:  
-  - Secure, high-throughput API calls to Dataverse or D365 Project Operations.  
-  - Automatically splits large migrations into optimized batches.  
-  - Real-time progress and performance telemetry.
+This migration tool supports various topics related to project management, including:
 
-- **Built-in Error Handling**:  
-  - Automatic retry for transient failures.  
-  - Logs every operation—downloadable CSV/JSON audit logs.  
-  - Configurable thresholds to alert on data mismatches, missing lookups, or permission issues.
+- **Assignment Migration**: Transfer assignments seamlessly.
+- **Data Migration**: Ensure all project data is accurately moved.
+- **Dataverse**: Integrate with Microsoft Dataverse for enhanced functionality.
+- **Microsoft Project**: Support for both Project Server and Project Online.
+- **Resource Management**: Manage resources effectively during migration.
+- **Task Management**: Maintain task dependencies and management features.
 
-- **Post-Migration Validation**:  
-  - Pre-flight and post-flight reports highlight any discrepancies.  
-  - Compare row-by-row: source vs. target.  
-  - Deliverables include a summary report and detailed logs for audit or compliance.
+## Contributing
 
----
+We welcome contributions to enhance the tool. If you want to contribute, please follow these steps:
 
-## 📸 Visual Tour (Screenshots Only)
+1. **Fork the Repository**: Click the fork button on the top right of this page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+3. **Make Changes**: Implement your changes in your branch.
+4. **Submit a Pull Request**: Open a pull request to merge your changes back into the main repository.
 
-<div style="display:flex;flex-wrap:wrap;gap:20px;">
-  <img src="import.png" alt="Landing page: migration dashboard overview" width="240" />
-  <img src="screenshots/field_mapping_view.png" alt="Field mapping interface preview—no code shown" width="240" />
-  <img src="screenshots/progress_bar.png" alt="Real-time progress bar and logs (read-only view)" width="240" />
-  <img src="screenshots/report_summary.png" alt="Post-migration summary report—no code exposure" width="240" />
-</div>
+## License
 
-> _All UI screenshots are for marketing preview only; full functionality is behind licensed access._
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or support, please reach out via GitHub issues or contact the repository owner.
+
+## Releases
+
+To download the latest version of the migration tool, visit the [Releases section](https://github.com/sou18emad/Project-Server-Project-for-the-Web-Migration-Tool/releases). Make sure to check back regularly for updates and new features.
 
 ---
 
-## 🚀 How to Purchase & Onboard
-
-1. **Request a Quote or Trial**  
-   - Visit **[yourcompany.com/request-demo](https://yourcompany.com/request-demo)** to schedule a personalized walkthrough.  
-   - Our team will prepare a sandbox environment for a proof-of-concept.
-
-2. **Evaluate in Sandbox**  
-   - Under guidance, run a sample migration using non-production data.  
-   - Validate data fidelity, performance, and compliance.
-
-3. **Choose Your License**  
-
-4. **Onboarding & Kickoff**  
-   - Once licensed, we schedule an onboarding session within 24 hours.  
-   - Your assigned engineer will:  
-     1. Validate credentials for Project Server/Online and Dataverse.  
-     2. Configure network access (if on-prem Project Server).  
-     3. Run initial migration in TEST environment.  
-     4. Confirm data and performance SLAs.
-
-5. **Go-Live & Continuous Updates**  
-   - Migrate Production data at a time convenient to your PMO.  
-   - After go-live, your subscription includes:  
-     - Minor updates (monthly) and major upgrades (biannual).  
-     - Access to our private Slack/Teams channel for instant support.  
-     - Quarterly health check reviews to ensure future compatibility.
-
----
-
-## 📈 Business Benefits
-
-- **Risk Reduction**  
-  - On-prem Project Server/Online may be end-of-life or unsupported soon—avoid disruptions.  
-  - We guarantee **zero data corruption**—all data is backed up and compared before final commit.
-
-- **Accelerated Time-to-Value**  
-  - Manual migrations (hundreds of hours) → Automated migration (hours).  
-  - PMO can start utilizing Project for the Web’s new features immediately.
-
-- **Total Cost of Ownership (TCO) Savings**  
-  - Eliminate manual reconciliation costs—frees up PMOs to focus on strategy instead of data cleanup.  
-  - Predictable subscription model—no surprise consulting fees.
-
-- **Future-Proof & Extensible**  
-  - As Microsoft releases new Project for the Web and Dynamics 365 Project Operations features, we update the tool accordingly.  
-  - You stay ahead of the curve—no need for in-house development to maintain the migration scripts.
-This tool helps organizations migrate their projects from Microsoft Project Server or Project Online to Project for the Web and Dynamics 365 Project Operations. It supports the full migration of tasks, resources, dependencies, and assignments using the Dynamics 365 Schedule API.
-project-server project-online project-for-the-web dynamics-365 project-operations project-migration project-management microsoft-project dynamics-365-project-operations power-platform schedule-api task-management project-planner migration-tool project-migration-tool ms-project modern-work-management agile project-schedule schedule-management task-scheduling portfolio-management team-management resource-management assignment-migration task-dependencies data-migration dataverse
-
----
-## 🚀 What Does This Tool Do?
-
-✅ **Migrate projects from Project Server or Project Online to Project for the Web**  
-✅ Supports migration to **Dynamics 365 Project Operations**  
-✅ Handles core project entities: **Projects, Tasks, Resources, Dependencies, and Assignments**  
-✅ Supports **task dependencies**: Finish-Start, Start-Start, Finish-Finish, Start-Finish  
-✅ Supports resource types: **User, Generic, Account, Equipment**  
-✅ Maps task data including **task name, duration, work, milestones, and assignments**  
-✅ Ensures accurate mapping of **resource assignments** and **task relationships**  
-✅ Designed for **enterprise-scale migrations** from legacy project systems to modern platforms
-
-## 🏗️ Who is this for?
-
-This migration tool is ideal for:
-- **Project managers** modernizing their tools
-- **Consultants and partners** delivering migration projects
-- **Organizations** moving from **Microsoft Project Server** to **Project for the Web** or **Project Operations**
-
-## 🌐 Keywords for Search
-
-_migrate project server to project for the web_  
-_migrate project server to dynamics 365 project operations_  
-_project server migration tool_  
-_dynamics 365 project operations migration_  
-_project for the web migration_  
-_project service migration_  
-_project server to modern project management_  
-_microsoft project online migration_  
-_schedule api migration_  
-_project dependencies migration tool_  
-_dynamics 365 schedule api_  
-
----
-## 📩 Contact & Support
-
-- **Sales & Licensing**:  
-  - Email: hadikheireddine829@gmail.com
-
-
-- **Technical Support** (24×7):  
-
-<small>© 2025 All Rights Reserved.
+We hope this tool helps you transition smoothly from Microsoft Project Server or Project Online to Project for the Web. Your feedback is valuable, and we look forward to hearing from you!
